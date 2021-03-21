@@ -1,0 +1,32 @@
+/*-------------------- VARIABLES --------------------*/
+/*-------------------- FONTS --------------------*/
+@font-face {
+  font-family: "Oxygen";
+  src: url("../../fonts/Oxygen-Regular.ttf");
+  font-style: normal;
+  font-weight: 400;
+}
+
+@font-face {
+  font-family: "Oxygen";
+  src: url("../../fonts/Oxygen-Bold.ttf");
+  font-style: normal;
+  font-weight: 700;
+}
+
+/*-------------------- GLOBAL --------------------*/
+body {
+  margin: 0;
+}
+
+h1 {
+  font-family: "Oxygen";
+  font-weight: bold;
+  font-size: 95px;
+  line-height: 153.71px;
+  letter-spacing: -1.5%;
+}
+
+/*-------------------- HEADER --------------------*/
+/*-------------------- MAIN --------------------*/
+/*-------------------- FOOTER --------------------*/
