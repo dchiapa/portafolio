@@ -14,7 +14,20 @@
   font-weight: 700;
 }
 
+@font-face {
+  font-family: "Poppins";
+  src: url("../../fonts/Poppins-Black.ttf");
+  font-style: normal;
+  font-weight: 900;
+}
+
 /*-------------------- GLOBAL --------------------*/
 /*-------------------- HEADER --------------------*/
+header .logo {
+  font-family: "Poppins";
+  font-size: 24px;
+  line-height: 38.83;
+}
+
 /*-------------------- MAIN --------------------*/
 /*-------------------- FOOTER --------------------*/
