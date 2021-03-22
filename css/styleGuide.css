@@ -1,0 +1,73 @@
+/*-------------------- STYLE GUIDE --------------------*/
+/*-------------------- VARIABLES --------------------*/
+/*-------------------- FONTS --------------------*/
+@font-face {
+  font-family: "Oxygen";
+  src: url("../../fonts/Oxygen-Regular.ttf");
+  font-style: normal;
+  font-weight: 400;
+}
+
+@font-face {
+  font-family: "Oxygen";
+  src: url("../../fonts/Oxygen-Bold.ttf");
+  font-style: normal;
+  font-weight: 700;
+}
+
+* {
+  font-family: "Oxygen";
+  font-weight: normal;
+  font-style: normal;
+}
+
+body {
+  margin: 0;
+  display: flex;
+}
+
+section {
+  display: inline-block;
+  border: 1px solid #000;
+  height: 800px;
+  width: 47.5%;
+  margin: 1%;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5 {
+  font-weight: bold;
+}
+
+h1 {
+  font-size: 95px;
+  line-height: 153.71px;
+}
+
+h2 {
+  font-size: 59px;
+  line-height: 95.46px;
+}
+
+h3 {
+  font-size: 48px;
+  line-height: 77.66px;
+}
+
+h4 {
+  font-size: 34px;
+  line-height: 55.01px;
+}
+
+h5 {
+  font-size: 24px;
+  line-height: 38.83px;
+}
+
+p {
+  font-size: 16px;
+  line-height: 25.89px;
+}
