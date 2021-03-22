@@ -15,6 +15,13 @@
   font-weight: 700;
 }
 
+@font-face {
+  font-family: "Poppins";
+  src: url("../../fonts/Poppins-Black.ttf");
+  font-style: normal;
+  font-weight: 900;
+}
+
 * {
   font-family: "Oxygen";
   font-weight: normal;
@@ -22,8 +29,10 @@
 }
 
 body {
-  margin: 0;
+  background-image: linear-gradient(135deg, #fad7a1, #e96d71);
   display: flex;
+  margin: 0;
+  height: 1000px;
 }
 
 section {
@@ -38,7 +47,8 @@ h1,
 h2,
 h3,
 h4,
-h5 {
+h5,
+button {
   font-weight: bold;
 }
 
@@ -70,4 +80,35 @@ h5 {
 p {
   font-size: 16px;
   line-height: 25.89px;
+}
+
+button {
+  align-items: center;
+  border: 2px solid #0f0a0a;
+  border-radius: 90px;
+  box-sizing: border-box;
+  display: flex;
+  filter: drop-shadow(-4px 4px 14px rgba(0, 0, 0, 0.25));
+  flex-direction: column;
+  font-size: 14px;
+  height: 49px;
+  justify-content: center;
+  line-height: 22.65px;
+  outline: none;
+  padding: 0px;
+  text-align: center;
+}
+
+button.primary {
+  background-color: #42e2b8;
+  width: 111px;
+}
+
+button.secondary {
+  background-color: transparent;
+  width: 142px;
+}
+
+button:hover {
+  cursor: pointer;
 }
