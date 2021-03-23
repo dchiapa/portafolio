@@ -7,60 +7,63 @@ main {
 #aboutMe {
   height: 610px;
   width: 328px;
-}
-#myPhoto,
-#myDescription {
-  width: 100%;
-  height: 297px;
-}
-#myPhoto {
-  position: relative;
-  #foto {
-    position: absolute;
-    width: 213px;
-    height: auto;
-    left: 63px;
-    top: 13px;
-    z-index: 4;
-    clip-path: circle(120px);
+  #myPhoto,
+  #myDescription {
+    width: 100%;
+    height: 297px;
   }
-  #fondo1 {
-    position: absolute;
-    width: 310px;
-    height: auto;
-    left: 8px;
-    top: 45px;
-    z-index: 0;
+  #myPhoto {
+    position: relative;
+    #foto {
+      position: absolute;
+      width: 213px;
+      height: auto;
+      left: 63px;
+      top: 13px;
+      z-index: 4;
+      clip-path: circle(120px);
+    }
+    #fondo1 {
+      position: absolute;
+      width: 310px;
+      height: auto;
+      left: 8px;
+      top: 45px;
+      z-index: 0;
+    }
+    #fondo2 {
+      position: absolute;
+      width: 250px;
+      height: auto;
+      left: 50px;
+      top: 25px;
+      z-index: 2;
+    }
   }
-  #fondo2 {
-    position: absolute;
-    width: 250px;
-    height: auto;
-    left: 50px;
-    top: 25px;
-    z-index: 2;
+  #myDescription {
+    p {
+      font-size: 16px;
+      line-height: 25.89px;
+    }
   }
-}
-#myDescription {
-  p {
-    font-size: 16px;
-    line-height: 25.89px;
-  }
-}
-#mySocials {
-  height: 44px;
-  width: 224px;
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-  a {
-    border-radius: 5px;
-    filter: none;
+  #mySocials {
     height: 44px;
-    width: 44px;
-  }
-  img {
-    height: 24px;
-    width: auto;
+    width: 224px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    a {
+      border-radius: 5px;
+      filter: none;
+      height: 44px;
+      width: 44px;
+      &:hover {
+        filter: opacity(75%);
+      }
+    }
+    img {
+      height: 24px;
+      width: auto;
+    }
   }
 }
