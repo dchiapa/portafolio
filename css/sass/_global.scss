@@ -28,7 +28,7 @@ h3 {
 }
 
 /*---------- Botones ----------*/
-button {
+.button {
   align-items: center;
   border: 2px solid #0f0a0a;
   border-radius: 90px;
@@ -44,18 +44,19 @@ button {
   outline: none;
   padding: 0px;
   text-align: center;
-  &.primary {
-    background-color: $color-primary;
-    width: 151px;
-  }
-  &.secondary {
-    background-color: transparent;
-    width: 142px;
-  }
   &:hover {
     cursor: pointer;
   }
   &:active {
     filter: none;
   }
+}
+
+.primary {
+  background-color: $color-primary;
+  width: 151px;
+}
+.secondary {
+  background-color: transparent;
+  width: 142px;
 }
