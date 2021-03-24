@@ -42,26 +42,6 @@ main {
       z-index: 2;
     }
   }
-  #mySocials {
-    height: 44px;
-    width: 224px;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    a {
-      border-radius: 5px;
-      filter: none;
-      height: 44px;
-      width: 44px;
-      &:hover {
-        filter: opacity(75%);
-      }
-    }
-    img {
-      height: 24px;
-      width: auto;
-    }
-  }
 }
 
 /*---------- Section comment ----------*/
