@@ -12,7 +12,7 @@ body {
   margin: 0;
 }
 
-/*---------- Encabezados ----------*/
+/*---------- Textos ----------*/
 h2,
 h3 {
   margin: 0;
@@ -26,6 +26,22 @@ h3 {
   line-height: 77.66px;
 }
 
+h5 {
+  background-color: #000;
+  box-shadow: -4px 4px 0 #fff;
+  color: $color-primary;
+  font-size: 24px;
+  font-weight: bold;
+  height: 47px;
+  line-height: 38.83px;
+  text-align: center;
+  width: 258px;
+}
+
+p {
+  font-size: 16px;
+  line-height: 25.89px;
+}
 /*---------- Botones ----------*/
 .button {
   align-items: center;
