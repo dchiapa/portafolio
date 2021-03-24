@@ -69,3 +69,24 @@ main {
     }
   }
 }
+
+/*---------- Section comment ----------*/
+#comment {
+  margin-top: 80px;
+  width: 328px;
+  #firstComment,
+  #secondComment {
+    font-size: 24px;
+    letter-spacing: 0.005em;
+    line-height: 38.83px;
+    text-align: center;
+  }
+  #secondComment {
+    font-weight: bold;
+  }
+  img {
+    height: auto;
+    width: 80px;
+    margin-left: calc((100% - 80px) / 2);
+  }
+}
