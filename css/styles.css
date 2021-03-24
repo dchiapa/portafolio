@@ -34,7 +34,6 @@ body {
   display: flex;
   flex-direction: column;
   margin: 0;
-  height: 1017px;
 }
 
 /*---------- Encabezados ----------*/
@@ -189,6 +188,30 @@ main {
 #aboutMe #mySocials img {
   height: 24px;
   width: auto;
+}
+
+/*---------- Section comment ----------*/
+#comment {
+  margin-top: 80px;
+  width: 328px;
+}
+
+#comment #firstComment,
+#comment #secondComment {
+  font-size: 24px;
+  letter-spacing: 0.005em;
+  line-height: 38.83px;
+  text-align: center;
+}
+
+#comment #secondComment {
+  font-weight: bold;
+}
+
+#comment img {
+  height: auto;
+  width: 80px;
+  margin-left: calc((100% - 80px) / 2);
 }
 
 /*-------------------- FOOTER --------------------*/
