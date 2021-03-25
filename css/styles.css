@@ -105,6 +105,31 @@ p {
   background-color: transparent;
 }
 
+/*---------- RRSS ----------*/
+.mySocials {
+  height: 44px;
+  width: 224px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.mySocials a {
+  border-radius: 5px;
+  filter: none;
+  height: 44px;
+  width: 44px;
+}
+
+.mySocials a:hover {
+  filter: opacity(75%);
+}
+
+.mySocials img {
+  height: 24px;
+  width: auto;
+}
+
 /*-------------------- HEADER --------------------*/
 header {
   align-items: center;
@@ -178,30 +203,6 @@ main {
   z-index: 2;
 }
 
-#aboutMe #mySocials {
-  height: 44px;
-  width: 224px;
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-}
-
-#aboutMe #mySocials a {
-  border-radius: 5px;
-  filter: none;
-  height: 44px;
-  width: 44px;
-}
-
-#aboutMe #mySocials a:hover {
-  filter: opacity(75%);
-}
-
-#aboutMe #mySocials img {
-  height: 24px;
-  width: auto;
-}
-
 /*---------- Section comment ----------*/
 #comment {
   margin-top: 80px;
@@ -270,3 +271,17 @@ main {
 }
 
 /*-------------------- FOOTER --------------------*/
+footer {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  margin-top: 50px;
+  padding: 16px;
+  width: calc(100% - 32px);
+}
+
+footer p {
+  margin-top: 50px;
+  text-align: center;
+}
