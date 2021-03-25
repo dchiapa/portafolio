@@ -1,1 +1,14 @@
 /*-------------------- FOOTER --------------------*/
+footer {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  margin-top: 50px;
+  padding: 16px;
+  width: calc(100% - 32px);
+  p {
+    margin-top: 50px;
+    text-align: center;
+  }
+}
