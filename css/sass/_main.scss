@@ -2,16 +2,15 @@
 
 main {
   padding: 16px;
-  width: calc(100% - 32px);
 }
 
 /*---------- Section aboutMe ----------*/
 #aboutMe {
   height: 610px;
-  width: 328px;
   #myPhoto,
   #myDescription {
-    width: 100%;
+    margin: 0 auto;
+    width: 310px;
     height: 297px;
   }
   #myPhoto {
@@ -47,7 +46,6 @@ main {
 /*---------- Section comment ----------*/
 #comment {
   margin-top: 80px;
-  width: 328px;
   p {
     font-size: 24px;
     letter-spacing: 0.005em;
@@ -69,12 +67,14 @@ main {
   article {
     margin-top: 100px;
   }
-  img {
-    height: auto;
-    width: 328px;
+  .proyectButtons {
+    display: flex;
+    flex-direction: column;
+    margin-top: 10px;
   }
   button {
-    margin-bottom: 10px;
+    width: 320px;
+    margin: 0 auto 10px;
     img {
       margin-right: 10px;
       width: 23px;
@@ -84,6 +84,8 @@ main {
 
 /*---------- Section contact ----------*/
 #contact {
+  margin: 0 auto;
+  width: 320px;
   form {
     label,
     input,
@@ -104,6 +106,17 @@ main {
       height: 110px;
       margin-bottom: 16px;
       resize: none;
+    }
+  }
+}
+
+@media (min-width: 576px) {
+  #proyects {
+    .proyectButtons {
+      flex-direction: row;
+      button {
+        width: 263px;
+      }
     }
   }
 }

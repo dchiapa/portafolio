@@ -11,7 +11,15 @@ body {
   flex-direction: column;
   margin: 0;
 }
-
+footer,
+header,
+main {
+  width: calc(100% - 32px);
+}
+img {
+  height: auto;
+  width: calc(100% - 32px);
+}
 /*---------- Textos ----------*/
 h2,
 h3 {
@@ -82,6 +90,7 @@ p {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
+  margin: auto;
   a {
     border-radius: 5px;
     filter: none;
