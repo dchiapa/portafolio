@@ -6,40 +6,29 @@ main {
 
 /*---------- Section aboutMe ----------*/
 #aboutMe {
-  height: 610px;
-  #myPhoto,
-  #myDescription {
-    margin: 0 auto;
-    width: 310px;
-    height: 297px;
-  }
+  display: grid;
   #myPhoto {
+    height: 300px;
+    grid-row: 1 / 2;
     position: relative;
+    img {
+      position: absolute;
+    }
     #foto {
-      position: absolute;
-      width: 213px;
-      height: auto;
-      left: 63px;
-      top: 13px;
-      z-index: 4;
-      clip-path: circle(120px);
-    }
-    #fondo1 {
-      position: absolute;
-      width: 310px;
-      height: auto;
-      left: 8px;
-      top: 45px;
-      z-index: 0;
-    }
-    #fondo2 {
-      position: absolute;
+      left: calc((100% - 262px) / 2);
       width: 250px;
-      height: auto;
-      left: 50px;
-      top: 25px;
-      z-index: 2;
+      z-index: 3;
+      clip-path: circle(150px);
     }
+    #fondo1,
+    #fondo2 {
+      left: calc((100% - 300px) / 2);
+      top: 20px;
+      width: 300px;
+    }
+  }
+  #myDescrption {
+    grid-row: 2 / 3;
   }
 }
 
@@ -110,6 +99,7 @@ main {
   }
 }
 
+/*---------- MEDIA QUERYS ----------*/
 @media (min-width: 576px) {
   #proyects {
     .proyectButtons {
@@ -117,6 +107,22 @@ main {
       button {
         width: 263px;
       }
+    }
+  }
+}
+
+@media (min-width: 768px) {
+  #aboutMe {
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: 1fr 100px;
+    #myPhoto {
+      grid-column-start: 2;
+      grid-row: 1 / span 2;
+      margin: auto;
+    }
+    #myDescrption {
+      grid-column-start: 1;
+      grid-row-start: 1;
     }
   }
 }
