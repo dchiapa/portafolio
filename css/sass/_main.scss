@@ -54,6 +54,7 @@ main {
 /*---------- Section proyects ----------*/
 #proyects {
   article {
+    display: grid;
     margin-top: 100px;
   }
   .proyectButtons {
@@ -74,7 +75,7 @@ main {
 /*---------- Section contact ----------*/
 #contact {
   margin: 0 auto;
-  width: 320px;
+  width: 70%;
   form {
     label,
     input,
@@ -95,34 +96,6 @@ main {
       height: 110px;
       margin-bottom: 16px;
       resize: none;
-    }
-  }
-}
-
-/*---------- MEDIA QUERYS ----------*/
-@media (min-width: 576px) {
-  #proyects {
-    .proyectButtons {
-      flex-direction: row;
-      button {
-        width: 263px;
-      }
-    }
-  }
-}
-
-@media (min-width: 768px) {
-  #aboutMe {
-    grid-template-columns: repeat(2, 1fr);
-    grid-template-rows: 1fr 100px;
-    #myPhoto {
-      grid-column-start: 2;
-      grid-row: 1 / span 2;
-      margin: auto;
-    }
-    #myDescrption {
-      grid-column-start: 1;
-      grid-row-start: 1;
     }
   }
 }
