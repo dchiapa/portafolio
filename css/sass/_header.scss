@@ -11,6 +11,31 @@ header {
     text-transform: uppercase;
     line-height: 49px;
   }
+  nav {
+    display: none;
+    width: 300px;
+    margin-left: 25%;
+    ul {
+      display: flex;
+      justify-content: space-evenly;
+      width: 100%;
+    }
+    li {
+      list-style: none;
+    }
+    a {
+      font-size: 14px;
+      font-weight: bold;
+      color: #000;
+      text-decoration: none;
+      letter-spacing: 1.25px;
+      text-transform: uppercase;
+      opacity: 0.5;
+    }
+    a.active {
+      opacity: 0;
+    }
+  }
   button {
     position: absolute;
     top: 16px;
