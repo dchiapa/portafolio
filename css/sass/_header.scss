@@ -1,10 +1,13 @@
 /*-------------------- HEADER --------------------*/
 
 header {
+  background: $fondo-header;
   align-items: center;
   display: flex;
   height: 49px;
   padding: 16px;
+  position: fixed;
+  z-index: 10;
   .logo {
     font-family: "Poppins";
     font-size: 24px;
@@ -33,7 +36,7 @@ header {
       opacity: 0.5;
     }
     a.active {
-      opacity: 0;
+      opacity: 1;
     }
   }
   button {
