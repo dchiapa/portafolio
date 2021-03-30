@@ -144,10 +144,13 @@ p {
 
 /*-------------------- HEADER --------------------*/
 header {
+  background: #fad7a1;
   align-items: center;
   display: flex;
   height: 49px;
   padding: 16px;
+  position: fixed;
+  z-index: 10;
 }
 
 header .logo {
@@ -184,7 +187,7 @@ header nav a {
 }
 
 header nav a.active {
-  opacity: 0;
+  opacity: 1;
 }
 
 header button {
@@ -196,6 +199,7 @@ header button {
 
 /*-------------------- MAIN --------------------*/
 main {
+  margin-top: 60px;
   padding: 16px;
 }
 
