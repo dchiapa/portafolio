@@ -39,10 +39,12 @@ header {
       opacity: 1;
     }
   }
-  button {
+  .button {
+    color: #000;
     position: absolute;
-    top: 16px;
     right: 16px;
+    text-decoration: none;
+    top: 16px;
     width: 151px !important;
   }
 }

@@ -63,9 +63,11 @@ main {
     flex-direction: column;
     margin-top: 10px;
   }
-  button {
-    width: 320px;
+  .button {
+    color: #000;
     margin: 0 auto 10px;
+    text-decoration: none;
+    width: 320px;
     img {
       margin-right: 10px;
       width: 23px;
